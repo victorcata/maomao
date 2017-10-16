@@ -37,21 +37,19 @@
       {hook h='displayAfterBodyOpeningTag'}
     {/block}
 
+    <header class="header">
+      {block name='header'}
+        {include file='_partials/header.tpl'}
+      {/block}
+    </header>
+
     <main>
       {block name='product_activation'}
         {include file='catalog/_partials/product-activation.tpl'}
       {/block}
-
-      <header id="header">
-        {block name='header'}
-          {include file='_partials/header.tpl'}
-        {/block}
-      </header>
-
       {block name='notifications'}
         {include file='_partials/notifications.tpl'}
       {/block}
-
       <section id="wrapper">
         {hook h="displayWrapperTop"}
         <div class="container">
@@ -91,14 +89,13 @@
         </div>
         {hook h="displayWrapperBottom"}
       </section>
-
-      <footer id="footer">
-        {block name="footer"}
-          {include file="_partials/footer.tpl"}
-        {/block}
-      </footer>
-
     </main>
+
+    <footer class="footer">
+      {block name="footer"}
+        {include file="_partials/footer.tpl"}
+      {/block}
+    </footer>
 
     {block name='javascript_bottom'}
       {include file="_partials/javascript.tpl" javascript=$javascript.bottom}

@@ -878,7 +878,8 @@ class FrontControllerCore extends Controller
     public function setMedia()
     {
         $this->registerStylesheet('theme-main', '/assets/css/theme.css', ['media' => 'all', 'priority' => 50]);
-        $this->registerStylesheet('theme-custom', '/assets/css/custom.css', ['media' => 'all', 'priority' => 1000]);
+        // VCH: custom.css not needed
+        // $this->registerStylesheet('theme-custom', '/assets/css/custom.css', ['media' => 'all', 'priority' => 1000]);
 
         if ($this->context->language->is_rtl) {
             $this->registerStylesheet('theme-rtl', '/assets/css/rtl.css', ['media' => 'all', 'priority' => 900]);
@@ -1176,9 +1177,10 @@ class FrontControllerCore extends Controller
         $css_path = '/js/jquery/ui/themes/'.$theme.'/minified/jquery-ui.min.css';
         $js_path = '/js/jquery/ui/jquery-ui.min.js';
 
-        $this->registerStylesheet('jquery-ui-theme', $css_theme_path, ['media' => 'all', 'priority' => 95]);
-        $this->registerStylesheet('jquery-ui', $css_path, ['media' => 'all', 'priority' => 90]);
-        $this->registerJavascript('jquery-ui', $js_path, ['position' => 'bottom', 'priority' => 90]);
+        // VCH: jquery-ui not necessary
+        // $this->registerStylesheet('jquery-ui-theme', $css_theme_path, ['media' => 'all', 'priority' => 95]);
+        // $this->registerStylesheet('jquery-ui', $css_path, ['media' => 'all', 'priority' => 90]);
+        // $this->registerJavascript('jquery-ui', $js_path, ['position' => 'bottom', 'priority' => 90]);
     }
 
     /**

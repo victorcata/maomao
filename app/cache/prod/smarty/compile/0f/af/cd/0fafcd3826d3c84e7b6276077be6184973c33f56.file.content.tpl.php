@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-16 22:26:25
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-16 22:41:05
          compiled from "/Users/victorcata/Documents/Projects/07 - Mika/prestashop/modules/welcome/views/content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:13211343959e515f1692628-33018228%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:150270760759e51961b95209-24959015%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13211343959e515f1692628-33018228',
+  'nocache_hash' => '150270760759e51961b95209-24959015',
   'function' => 
   array (
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e515f16b90c9_94620598',
+  'unifunc' => 'content_59e51961bca330_52209377',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e515f16b90c9_94620598')) {function content_59e515f16b90c9_94620598($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/Users/victorcata/Documents/Projects/07 - Mika/prestashop/vendor/prestashop/smarty/plugins/function.math.php';
+<?php if ($_valid && !is_callable('content_59e51961bca330_52209377')) {function content_59e51961bca330_52209377($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/Users/victorcata/Documents/Projects/07 - Mika/prestashop/vendor/prestashop/smarty/plugins/function.math.php';
 ?>
 
 <div class="onboarding-advancement" style="display: none">

@@ -1,7 +1,10 @@
-{**
- * @author    Victor Catalina Hermoso
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- *}
+<!--
+{block name='header_banner'}
+  <div class="header-banner">
+    {hook h='displayBanner'}
+  </div>
+{/block}
+-->
 {block name='header_nav'}
   <nav class="header-nav">
     <div class="container">
