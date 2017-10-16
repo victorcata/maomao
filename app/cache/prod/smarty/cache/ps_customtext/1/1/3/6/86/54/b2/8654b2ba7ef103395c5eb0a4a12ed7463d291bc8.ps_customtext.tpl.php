@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:103172867259e509c276b3f3-73854040%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:206044018959e515f5beefb3-61753356%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,17 +9,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '103172867259e509c276b3f3-73854040',
+  'nocache_hash' => '206044018959e515f5beefb3-61753356',
   'variables' => 
   array (
     'cms_infos' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e509c2771c36_17904722',
+  'unifunc' => 'content_59e515f5bf7d89_50959376',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e509c2771c36_17904722')) {function content_59e509c2771c36_17904722($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59e515f5bf7d89_50959376')) {function content_59e515f5bf7d89_50959376($_smarty_tpl) {?>
 <div id="custom-text">
   <h3>Custom Text Block</h3>
 <p><strong class="dark">Lorem ipsum dolor sit amet conse ctetu</strong></p>

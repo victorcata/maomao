@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:18760998259e509c26bafe0-88779822%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:92518503359e515f5b0cec3-35095670%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -8,20 +8,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1507124140,
       2 => 'module',
     ),
-    'dd7732092e53f042dc970176d9a75baac2bf4850' => 
+    'c61990873aedebf77e3a79254aefee84ca899c69' => 
     array (
-      0 => '/Users/victorcata/Documents/Projects/07 - Mika/prestashop/themes/mika/templates/catalog/_partials/miniatures/product.tpl',
+      0 => '/Users/victorcata/Documents/Projects/07 - Mika/prestashop/themes/maomao/templates/catalog/_partials/miniatures/product.tpl',
       1 => 1507124140,
       2 => 'file',
     ),
-    'd1f7531fa09c9b01b9589e10df5b0e564203aca4' => 
+    '7d1df40179ebb8bf0e8e014deac718fbe9286ea3' => 
     array (
-      0 => '/Users/victorcata/Documents/Projects/07 - Mika/prestashop/themes/mika/templates/catalog/_partials/variant-links.tpl',
+      0 => '/Users/victorcata/Documents/Projects/07 - Mika/prestashop/themes/maomao/templates/catalog/_partials/variant-links.tpl',
       1 => 1507124140,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18760998259e509c26bafe0-88779822',
+  'nocache_hash' => '92518503359e515f5b0cec3-35095670',
   'variables' => 
   array (
     'products' => 0,
@@ -30,10 +30,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e509c27445c8_57915005',
+  'unifunc' => 'content_59e515f5bad296_02159145',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e509c27445c8_57915005')) {function content_59e509c27445c8_57915005($_smarty_tpl) {?><section class="featured-products clearfix">
+<?php if ($_valid && !is_callable('content_59e515f5bad296_02159145')) {function content_59e515f5bad296_02159145($_smarty_tpl) {?><section class="featured-products clearfix">
   <h1 class="h1 products-section-title text-uppercase">
     Productos Destacados
   </h1>

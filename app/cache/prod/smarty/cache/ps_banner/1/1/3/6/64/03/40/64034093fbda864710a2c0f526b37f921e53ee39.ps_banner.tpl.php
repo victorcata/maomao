@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:43803734659e509c2751007-44964976%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9049346259e515f5bbb847-24458597%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '43803734659e509c2751007-44964976',
+  'nocache_hash' => '9049346259e515f5bbb847-24458597',
   'variables' => 
   array (
     'banner_link' => 0,
@@ -18,10 +18,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e509c2760577_79280333',
+  'unifunc' => 'content_59e515f5bdab63_85126098',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e509c2760577_79280333')) {function content_59e509c2760577_79280333($_smarty_tpl) {?><a class="banner" href="http://localhost/prestashop/es/" title="">
+<?php if ($_valid && !is_callable('content_59e515f5bdab63_85126098')) {function content_59e515f5bdab63_85126098($_smarty_tpl) {?><a class="banner" href="http://localhost/prestashop/es/" title="">
       <img src="http://localhost/prestashop/modules/ps_banner/img/sale70.png" alt="" title="" class="img-fluid">
   </a>
 <?php }} ?>

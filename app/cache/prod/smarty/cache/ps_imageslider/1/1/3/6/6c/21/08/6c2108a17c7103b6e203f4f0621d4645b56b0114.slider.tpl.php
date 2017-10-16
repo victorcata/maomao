@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:119835504759e509c23a7b45-91406415%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:198502674159e515f5630e96-90568055%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '119835504759e509c23a7b45-91406415',
+  'nocache_hash' => '198502674159e515f5630e96-90568055',
   'variables' => 
   array (
     'homeslider' => 0,
@@ -17,10 +17,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e509c2405809_73682730',
+  'unifunc' => 'content_59e515f56bda63_69499964',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e509c2405809_73682730')) {function content_59e509c2405809_73682730($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59e515f56bda63_69499964')) {function content_59e515f56bda63_69499964($_smarty_tpl) {?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover">
     <ul class="carousel-inner" role="listbox">
               <li class="carousel-item active" role="option" aria-hidden="false">
